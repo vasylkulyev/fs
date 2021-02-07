@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/share/redmine
+bundle exec rake redmine:send_reminders days=0 RAILS_ENV="production"
